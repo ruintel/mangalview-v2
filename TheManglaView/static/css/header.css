@@ -1,0 +1,190 @@
+/* ----------------- */
+/* css for events */
+/* ---------------- */
+/* css of header part */
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.first-nav {
+    opacity: 1;
+    display: flex;
+    justify-content: end;
+    background-color: black;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+   
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    top: 0;
+  }
+  
+
+  nav ul li:last-child {
+    margin-right: 0;
+    margin-right: 70px;
+    top: 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .social-icons {
+    display: flex;
+    
+  }
+  
+  .social-icons a {
+    margin-left: 20px;
+  }
+  
+  .social-icons a i {
+    color: #fff;
+    font-size: 24px;
+  }
+
+  @media only screen and (max-width: 700px) {
+  
+    .first-nav {
+      opacity: 1;
+      display: flex;
+      justify-content: end;
+      width: 100%;
+    }
+    .social-icons {
+      display: flex;
+      justify-content: end;
+      width: 100%;
+      
+    }
+  }
+
+
+  /* main navigation bar start */
+  
+  .Main_navbar {
+    position: absolute;
+    width: 100%;
+    top: 48px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+  }
+  .logo{   
+    display: flex;
+    justify-content: center;
+    left: 0;
+     top: 0;
+     height: 100px;
+    width: 30%;
+    align-items: center;
+
+
+  }
+  
+  .logo a img {
+    text-align: center;
+    vertical-align: center;
+
+    width: 250px;
+    height: 55px;
+  }
+  .pages{
+    width: 70%;
+    text-align: center;
+  }
+  
+  .navigation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+   align-items: center;
+    display: flex;
+    justify-content: start;
+  }
+  
+  .navigation li {
+    margin-right: 20px;
+  }
+  
+  .navigation li:last-child {
+    margin-right: 0;
+  }
+  
+  .navigation li a {
+    color:darkblue;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .last-butn{
+    padding-left: 60px;
+  }
+  .navigation li a:hover {
+  color: orangered;
+  }
+  .book-butn1{
+    background-color: orangered;
+    color: white;
+    width: 130px;
+    height: 45px;
+    font-size: 18px;
+    border: solid white 1px;
+    border-radius: 25px;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .Main_navbar {
+      width: 100%;
+      top: 48px;
+      height: auto;
+      display: block;
+      align-items: center;
+      background-color: gray;
+     
+    }
+    .pages{
+      width: 100%;
+      
+      text-align: center;
+      display: block;
+    }
+     
+  .navigation {
+    list-style: none;
+    margin-top: -100px;
+   align-items: center;
+    display: block;
+    justify-content: center;
+     }
+  .logo{   
+    display: block;
+    justify-content: start;
+    height: 100px;
+    width: 20%;
+  }
+   
+  .logo a img {
+    width: 150px;
+    height: 35px;
+  }
+
+  }
