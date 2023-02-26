@@ -1,1 +1,62 @@
+/* Anshu css Start */
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+/* css for contact us */
+.imgc
+{
+height: 30rem;
+
+}
+.contact
+{    
+    background-color: FEFBE9;
+}
+
+/*css for Facilities */
+.images
+{
+    height: 100%;
+    width: 100%;
+}
+.second_room_img3 
+{
+    height: 28rem;
+
+}
+.contact_banner_img
+{
+    height
+}
+
+@media only screen and (max-width: 600px) {
+    .second_room_img3
+{
+    height: 23rem;
+
+}
+  }
+
+
+.heading
+{
+    color: maroon;
+}
+.sub-heading
+{
+    color: #978667;
+}
+/*css for Events */
+.mocktails
+{
+    height: 300px;
+}
+
+/* Anshu css end */
+
+
 
