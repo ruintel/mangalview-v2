@@ -572,9 +572,9 @@ img{
     box-sizing: border-box;
      
   }
-
-
- 
+ .pics-div p{
+    color: #978667;
+  }
   .mysecion02{
     height: auto;
     width: 100%;
