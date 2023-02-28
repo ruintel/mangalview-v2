@@ -222,13 +222,80 @@
      height: 100%;
     }
   }
+/* ------------------------------------------- */
+  /* card section start */
+ .card_section_on_video{
+display: flex;
+justify-content: center;
+height: 250px;
+width: 100%;
+position: relative;
+z-index: +2px;
+margin-top: -150px;
+/* background-color: #f5ce95; */
+
+ }
+ .all_cards_video{
+  height: 250px;
+  width: 250px;
+  margin-left: 20px;
+  /* background-color: rgb(158, 184, 108); */
+  /* border: solid black 1px; */
+ }
+ .card_image_div{
+  height: 200px;
+  width: 100%;
+  /* background-color: yellow; */
+ }
+ .card_image_div {
+  /* padding: 50px; */
+  /* background-color: green; */
+  transition: transform .2s;
+  width: 250px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.card_image_div:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+ .card_text_div{
+  height: 48px;
+  width: 100%;
+  box-sizing: border-box;
+  /* background-color: rgb(247, 165, 118); */
+  background-color: rgb(223, 205, 188);
+ }
+ .card_text_div p{
+   text-align: center;
+   padding: 10px;
+   box-sizing: border-box;
+   color: rgb(68, 13, 13);
+ }
+ .card_image_div img{
+  width: 100%;
+  height: 100%;
+ }
 
 
+  /* card section ends */
+ 
+   .main_line{
+    border: dotted black 6px;
+    border-bottom: none;
+    width: 10%;
+    margin: 100px auto;
+   }
  /* About us section start */
+
  .about-section{
+  /* border: solid black 1px; */
   display: flex;
   justify-content: center;
-  height: 850px;
+  height: 650px;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -239,7 +306,8 @@
 .leftdiv{
   height: 590px;
   width: 450px;
-  background-color: rgb(210, 214, 218);
+  /* background-color: rgb(210, 214, 218); */
+  background-color: rgb(223, 205, 188);
   text-align: justify;
   z-index: +2;
   margin-left: 0px;
@@ -249,12 +317,20 @@
 .about-us{
   text-align: center;
   font-weight: 300;
+  color: rgb(68, 13, 13);
 }
 .rightdiv{
   height: 650px;
   width: 550px;
   z-index: -1;
  
+}
+.leftdiv p{
+  padding-top: 20px;
+  box-sizing: border-box;
+  color: rgb(104, 103, 103);
+  font-weight: 200;
+
 }
 .rightdiv img{
   height: 100%;
@@ -280,6 +356,11 @@
     width: 100%;    
   }
 }
+
+
+/* -------------------------------------------- */
+
+
 
 /* ----------------------------------------------------------------------- */
 /* slider section start */
@@ -376,23 +457,28 @@ img:nth-child(5) {
   
   }
 }
-
-
-
-
-
- 
-
-
+/* -------------------------------------------------------------- */
 /* facilities text cards start */
-
+.facilities_hrline{
+  border: dotted black 6px;
+  border-bottom: none;
+  width: 10%;
+  margin: 100px auto;
+ }
+.mysecion02{
+  /* background-color: rgb(223, 205, 188); */
+  min-height: 1100px;
+}
 .myfiest{
   text-align: center;
   font-size: 40px;
   font-weight: 200;
+  color: rgb(68, 13, 13);
+  /* background-color: yellow; */
 }
 .facility_text_section{
   color: gray;
+  /* background-color: yellow; */
   margin-top: 80px;
   display: flex;
   justify-content: space-around;
@@ -404,12 +490,21 @@ img:nth-child(5) {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: gray;
+  /* color: gray; */
+ 
+  font-weight: 200;
   width: 250px;
   height: auto;
   border: none;
   border-radius: 10px;
   padding: 20px;
+}
+.card p{
+  color: rgb(104, 103, 103);
+}
+.card h3{
+  color: rgb(68, 13, 13);
+  font-weight: 200;
 }
 
 #imficon01{
@@ -453,10 +548,8 @@ img{
   }
 
 }
-
-
-
-  /*facilities image card section start */
+/*------------------------------------------------------------------------------  */
+ /*facilities image card section start */
 
   .cards-section02{
     display: flex;
