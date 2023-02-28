@@ -359,21 +359,24 @@ margin-top: -150px;
 
 
 /* -------------------------------------------- */
-
-
-
 /* ----------------------------------------------------------------------- */
 /* slider section start */
-
+.slider_section{
+  height: 652px;
+  width: 100%;
+  /* border: solid black 1px; */
+  margin-top: 150px;
+}
 .cards-section{
+/* vertical-align: center; */
   width: 100%;
   height: 650px;
  margin: auto;
 
 }
 .pic-ctn01 {
-  width: 70%;
-  height: 85%;
+  width: 90%;
+  height: 100%;
   text-align: center;
   margin: auto;
   position: relative;
