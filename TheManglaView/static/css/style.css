@@ -15,6 +15,10 @@ html {
     line-height: 1.5;
     font-family: Roboto, sans-serif;
   }
+.blog_title
+{
+ font-size:larger ;
+}
   
   .slider {
     position: relative;
