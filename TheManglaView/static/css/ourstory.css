@@ -18,7 +18,7 @@
   }
   
   .about-section{
-    background: url(mangalview-2/TheManglaView/static/images/HOTEL\ LOGO.jpeg) no-repeat left;
+    background: url(/mangalview-v2/TheManglaView/static/images/HOTEL\ LOGO.jpeg) no-repeat left;
     background-size: 55%;
     /* background-color: #fdfdfd; */
     /* overflow: hidden; */
